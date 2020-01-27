@@ -1,0 +1,383 @@
+/*#Region Paula*/
+.Amador{
+    font-family: 'AmadorW01-Regular', sans-serif;
+}
+.Barlow{
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+.item-inside__meta .Barlow{
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+.WithoutDecoration{
+    text-decoration: none; 
+}
+.TopOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2em !important;
+    margin-top: 1em;
+}
+.About-me{
+    position: absolute;
+    left: auto;
+    right: 10em;
+    top: 20em;
+}
+.paula{
+    font-size: 6.5em !important;
+}
+.column{
+    flex-direction: column;
+}
+.intro{
+    text-align: right;
+}
+#Proyectos{
+    justify-items: flex-start;
+    margin-left: 1em;
+}
+#SobreMi{
+    justify-items: flex-end;
+    margin-right: 1em;
+}
+.Responsive{
+    width: 100%;
+    height: auto;
+}
+#FotoPaula{
+    margin-left: 5em;
+    position: absolute;
+}
+#Info-div{
+    margin-top: 5em;
+}
+.text-intro{
+    font-size: 1.2em !important;
+}
+.Contraste-Font{
+    font-style: normal;
+    color: #f4f4f4;
+    background-color: #222222;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+.Contraste-Font-black{
+    font-style: normal;
+    color: black;
+    background-color: white;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+.margintop{
+    margin-top: 1em;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.projects-div{
+    margin-top: 30em;
+    display: flex;
+    justify-content: center;
+}
+.ProjectOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 4em !important;
+    margin: 10em 1em 1em 1em;
+    text-align: center;
+}
+#item{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 1em 0 1em;
+    align-items: center;
+}
+.Actual-Project{
+    position: absolute;
+    left: auto;
+    right: 10em;
+    top: 50em;
+}
+#tinta{
+    position: relative;
+    width: 70%;
+    right: -60em;
+}
+#Mockup{
+    position: absolute;
+    margin-top: 2em;
+    right: -15em;
+    width: 70%;
+    cursor: pointer;
+}
+#project-Title{
+    position: absolute;
+    left: 1em;
+    top: 2em;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;;
+    cursor: pointer;
+}
+#Contacto{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 70%;
+    background-color: white;
+    bottom: 0;
+}
+/* #Contact-div2{
+    position: relative;
+    margin-top: 10em;
+
+} */
+.white{
+    color: white;
+}
+.contacto{
+    position: absolute;
+    left: 14em;
+    font-size: 1em;
+    bottom: 17em;
+}
+/* #celular{
+    position: absolute;
+    bottom: 9em;
+    left: 12em;
+    font-size: 1.25em;
+}
+#correo{
+    position: absolute;
+    bottom: 9em;
+    left: 17em;
+    font-size: 1.25em;
+} */
+/*#endregion*/
+
+/* Prueba Rodrigo */
+
+#Contact-div2{
+    background-image: url("Contacto.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 28em;
+    background-color: white;
+    position: relative;
+}
+
+.contacto{
+    left: 10%;
+}
+.contacto2{
+    display: flex;
+    align-content: space-between;
+    left: 10%;
+    position: absolute;
+    left: 13%;
+    font-size: 1em;
+    bottom: 40%;
+}
+
+#celular{
+    width: 5em;
+}
+#correo{
+    width: 10em;
+    margin-left: 10%;
+}
+
+.d-flex-img{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+.d-flex-img > img{
+    width: 30%;
+}
+.border{
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(48,48,48,1);
+-moz-box-shadow: 0px 0px 34px 0px rgba(48,48,48,1);
+box-shadow: 0px 0px 34px 0px rgba(48,48,48,1);
+}
+.space2{
+    margin-bottom: 03em;
+}
+
+
+
+@media (min-width: 1290px){
+    .Actual-Project{
+        top: 60em;
+    }
+    .projects-div{
+        margin-top: 60em;
+    }
+    .contacto2{
+        bottom: 37%;
+    }
+    #celular{
+        width: 10em;
+    }
+}
+@media (min-width: 2120px){
+    .Actual-Project{
+        top: 90em;
+    }
+    .projects-div{
+        margin-top: 100em;
+    }
+    .contacto2{
+        bottom: 35%;
+    }
+    #celular{
+        width: 15em;
+    }
+}
+/* Fin de prueba */
+
+
+/*#region Media query*/
+@media (max-width: 1024px){
+    #project-Title{
+        top: 2em;
+        font-size: 4em;
+    }
+    #tinta{
+        right: -35em;
+    }
+}
+
+
+
+/* @media (max-width: 1240px) and (min-width: 1024px) {
+    .About-me{
+        font-size: 1em;
+        top: 14em;
+        right: 1em;
+    }
+    #project-Title{
+        top: 2em;
+        left: 2em;
+        font-size: 5em;
+    }
+    #tinta{
+        right: -40em;
+    }
+    .contacto{
+        left: 16em;
+        bottom: 21em;
+    }
+    #celular{
+        bottom: 10em;
+        left: 13em;
+    }
+    #correo{
+        bottom: 10em;
+        left: 18em;
+    }
+}
+@media (max-width: 1440px) and (min-width: 1240px) {
+    #project-Title{
+        top: 2em;
+        left: 2em;
+        font-size: 5em;
+    }
+    #tinta{
+        right: -40em;
+    }
+    .contacto{
+        font-size: 1.3em;
+        left: 15em;
+        bottom: 20em;
+    }
+    #celular{
+        bottom: 12.5em;
+        left: 16em;
+    }
+    #correo{
+        bottom: 12.5em;
+        left: 22em;
+    }
+}
+@media (max-width: 2173px) and (min-width: 1440px){
+    #project-Title{
+        top: 1.5em;
+        left: 2em;
+        font-size: 7em;
+    }
+    #tinta{
+        right: -50em;
+    }
+    .contacto{
+        font-size: 1.5em;
+        left: 13.5em;
+        bottom: 18em;
+    }
+    #celular{
+        bottom: 13.5em;
+        left: 17em;
+    }
+    #correo{
+        bottom: 13.5em;
+        left: 23.5em;
+    }
+}
+@media (min-width: 2173px) {
+    #Proyectos{
+        font-size: 2em;
+    }
+    #SobreMi{
+        font-size: 2em;
+    }
+    .About-me{
+        font-size: 2em;
+        top: 14em;
+    }
+    .projects-div{
+        margin-top: 60em;
+    }
+    #project-Title{
+        top: 4.5em;
+        left: 0em;
+        font-size: 10em;
+    }
+    #tinta{
+        right: -60em;
+        top: 35em;
+    }
+    #Mockup{
+        margin-top: 35em;
+        right: -15em;
+    }
+    .ProjectOptions{
+        font-size: 8em;
+        margin: 10em 1em 1em 1em;
+    }
+    .contacto{
+        font-size: 3em;
+        left: 12em;
+        bottom: 16em;
+    }
+    #celular{
+        bottom: 9.8em;
+        left: 12.5em;
+        font-size: 3em;
+    }
+    #correo{
+        bottom: 9.8em;
+        left: 17.4em;
+        font-size: 3em;
+    }
+}
+/*#endregion*/
+ 

@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'Amadoryo';
+    src: url('fonts/AmadorW01Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  } 
 /*#Region Paula*/
 .Amador{
-    font-family: 'AmadorW01-Regular', sans-serif;
+    font-family: 'Amadoryo', sans-serif;
 }
 .Barlow{
     font-family: 'Barlow Condensed', sans-serif !important;

@@ -130,6 +130,8 @@ p{
     position: absolute;
     left: 1em;
     top: 2em;
+    text-align: center;
+    width: 5em;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;;

@@ -2,12 +2,20 @@
     font-family: 'Amadoryo';
     src: url('fonts/AmadorW01Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
   } 
+@font-face {
+    font-family: 'Stanley';
+    src: url('fonts/Stanley.otf') format('opentype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  } 
 /*#Region Paula*/
 .Amador{
     font-family: 'Amadoryo', sans-serif;
 }
 .Barlow{
     font-family: 'Barlow Condensed', sans-serif !important;
+    opacity: 1 !important;
+}
+.Stanley{
+    font-family: 'Stanley', sans-serif !important;
 }
 .item-inside__meta .Barlow{
     font-family: 'Barlow Condensed', sans-serif !important;
@@ -46,7 +54,7 @@
     margin-right: 1em;
 }
 .Responsive{
-    width: 100%;
+    width: 30%;
     height: auto;
 }
 #FotoPaula{
